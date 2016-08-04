@@ -1,0 +1,106 @@
+@CHARSET "UTF-8";
+
+.ztree * {
+	font-size: 14px;
+	font-family: "Microsoft YaHei", "微软雅黑", Helvetica, "黑体", Arial, Tahoma;
+}
+
+.ztree {
+	padding: 0;
+}
+
+.ztree li ul {
+	margin: 0;
+	padding: 0;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.ztree li {
+	line-height: 30px;
+	margin: 0;
+	padding: 0;
+}
+
+.ztree li a {
+	width: 197px;
+	height: 30px;
+	padding-top: 0px;
+	text-indent: 3.2em;
+}
+
+.ztree li a:hover {
+	text-decoration: none;
+	background-color: #D3FFFF;
+}
+
+.ztree li a span.button.switch {
+	visibility: hidden
+}
+
+.ztree.showIcon li a span.button.switch {
+	visibility: visible
+}
+
+.ztree li a.curSelectedNode {	
+	border-bottom: 1px solid #3879E4;
+	color: #fff;
+	border: 0;
+	height: 30px;
+	background-color: #3879D9;
+	background: -webkit-gradient(linear, left top, left bottom, from(#3879E4),
+		to(#3879D9));
+	background: -moz-linear-gradient(top, #3879E4 0, #3879D9 100%);
+}
+
+.ztree li span {
+	line-height: 30px;
+}
+
+.ztree li span.button {
+	display: none;
+	margin-top: -7px;
+}
+
+.ztree li span.button.switch {
+	width: 16px;
+	height: 16px;
+}
+
+.ztree li a.level0 {
+	height: 35px;
+	line-height: 35px;
+	text-indent: 0em;
+	border-top: 1px solid #D1D1D1;
+	border-bottom: 1px solid #D1D1D1;
+	margin-top: -1px;
+}
+
+.ztree li a.level0 .icon {
+	display: inline-block;
+	width: 23px;
+	height: 23px;
+	position: relative;
+	background: url("../images/base_z.png") 0 -33px no-repeat;
+	left: 11px;
+	top: 6px;
+}
+
+.ztree li a.level0 .pointicon {
+	display: inline-block;
+	width: 23px;
+	height: 23px;
+	position: relative;
+	background: url("../images/base_z.png") 0 -422px no-repeat;
+	right: -60px;
+	top: 10px;
+}
+
+.ztree li a.level0 span {
+	margin-left: 18px;
+	font-size: 15px;
+}
+
+.ztree li a.level0:HOVER {
+	background: #F3F3F3;
+}

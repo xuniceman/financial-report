@@ -1,0 +1,570 @@
+@CHARSET "UTF-8";
+/*智慧免疫云-财务报表专用平台 前端样式表*/
+body {
+	margin: 0 auto;
+	padding: 0;
+	font-size: 14px;
+	color: #373737;
+	font-family: "Microsoft YaHei", "微软雅黑", Helvetica, "黑体", Arial, Tahoma;
+}
+
+.clear {
+	clear: both;
+}
+
+hr {
+	border-top: 1px solid #D1D1D1;
+	padding: 0;
+	margin: 0;
+}
+
+form {
+	padding: 0;
+	margin: 0;
+}
+
+.input_text {
+	height: 30px;
+	width: 200px;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border: 1px solid #D1D1D1;
+}
+
+.input_select {
+	height: 30px;
+	width: 200px;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border: 1px solid #D1D1D1;
+}
+
+.input_radio {
+	height: 17px;
+	width: 17px;
+	margin-top: 12px;
+	border: 1px solid #D1D1D1;
+}
+
+.input_checkbox {
+	height: 17px;
+	width: 17px;
+	margin-top: 12px;
+	border: 1px solid #D1D1D1;
+}
+
+input[type="submit"] {
+	width: 120px;
+	height: 30px;
+	background-color: #3879D9;
+	background: -webkit-gradient(linear, left top, left bottom, from(#3879E4),
+		to(#3879D9));
+	background: -moz-linear-gradient(top, #3879E4 0, #3879D9 100%);
+	color: #fff;
+	border: 1px solid #3879D9;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	cursor: pointer;
+	font-weight: 600;
+}
+
+input[type="button"] {
+	width: 120px;
+	height: 30px;
+	background-color: #3879D9;
+	background: -webkit-gradient(linear, left top, left bottom, from(#3879E4),
+		to(#3879D9));
+	background: -moz-linear-gradient(top, #3879E4 0, #3879D9 100%);
+	color: #fff;
+	border: 1px solid #3879D9;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	cursor: pointer;
+	font-weight: 600;
+}
+
+input[type="reset"] {
+	width: 120px;
+	height: 30px;
+	background-color: #3879D9;
+	background: -webkit-gradient(linear, left top, left bottom, from(#3879E4),
+		to(#3879D9));
+	background: -moz-linear-gradient(top, #3879E4 0, #3879D9 100%);
+	color: #fff;
+	border: 1px solid #3879D9;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	cursor: pointer;
+	font-weight: 600;
+}
+
+.header {
+	position: relative;
+	height: 60px;
+	background-color: #f3f3f3;
+	border-top: 5px solid #87CEFA;
+	box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
+	margin: auto;
+}
+
+.logo {
+	position: relative;
+	width: 960px;
+	height: 60px;
+	margin: 0 auto;
+	background: url('../images/logo_title.png') no-repeat left center;
+}
+
+.head_menu {
+	position: relative;
+	width: 400px;
+	height: 60px;
+	float: right;
+	padding: 0;
+	margin: 0;
+}
+
+.head_menu li {
+	position: relative;
+	float: right;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	height: 60px;
+	line-height: 80px;
+}
+
+.head_menu_space {
+	width: 40px;
+	text-align: center;
+	color: #828282;
+}
+
+.head_menu_mail a {
+	position: relative;
+	display: inline-block;
+	margin-left: 20px;
+	width: 23px;
+	height: 23px;
+	top: 6px;
+	background: url("../images/base_z.png") 0 -562px no-repeat;
+	width: 23px;
+}
+
+.head_menu_logout a {
+	color: #373737;
+	text-decoration: none;
+}
+
+.head_menu_logout a:hover {
+	color: #2e7dc6;
+	text-decoration: underline
+}
+
+.main {
+	position: relative;
+	margin: auto;
+	: auto; top
+	top: 20px;
+	border: 1px solid #D1D1D1;
+	margin: auto;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	top: 20px;
+	border: 1px solid #D1D1D1;
+	margin: auto;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	top: 20px;
+	border: 1px solid #D1D1D1;
+	margin: auto;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	: auto; top
+	top: 20px;
+	border: 1px solid #D1D1D1;
+	margin: auto;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+
+.main_left {
+	position: relative;
+	width: 200px;
+	height: 500px;
+	float: left;
+	border-right: 1px solid #D1D1D1;
+	background: #F3F3F3;
+}
+
+.main_right {
+	position: relative;
+	float: right;
+	height: 500px;
+}
+
+iframe {
+	width: 100%;
+	height: 100%;
+	border: 0;
+}
+
+.content_bar {
+	border-bottom: 1px solid #d3d3d3;
+	font-size: 14px;
+	color: #545454;
+	box-shadow: inset 0 1px 0 0 #fcfcfc;
+	-moz-box-shadow: inset 0 1px 0 0 #fcfcfc;
+	-webkit-box-shadow: inset 0 1px 0 0 #fcfcfc;
+	background-color: #e9e9e9;
+	background-image: -moz-linear-gradient(top, #f3f3f3 0, #e3e3e3 100%);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f3f3f3),
+		to(#e3e3e3));
+	background-image: -webkit-linear-gradient(top, #f3f3f3 0, #e3e3e3 100%);
+	background-image: -o-linear-gradient(top, #f3f3f3 0, #e3e3e3 100%);
+	background-image: linear-gradient(to bottom, #f3f3f3 0, #e3e3e3 100%);
+	line-height: 35px;
+	height: 35px;
+	text-indent: 1em;
+}
+
+.condition_box {
+	position: relative;
+	width: 90%;
+	margin: auto;
+	margin-top: 5px;
+	padding: 0;
+	height: 38px;
+}
+
+.condition_box li {
+	position: relative;
+	list-style: none;
+	float: left;
+	line-height: 38px;
+	height: 38px;
+}
+
+.condition_lable {
+	width: 100px;
+	text-align: right;
+	padding-right: 10px;
+	font-weight: 600;
+}
+
+.condition_input {
+	width: 210px;
+}
+.condition_input span{
+	margin-left:5px;
+	color: red;
+}
+.condition_btn_box {
+	position: relative;
+	width: 90%;
+	margin: auto;
+	margin-top: 5px;
+	padding: 0;
+	height: 38px;
+}
+
+.condition_btn_box li {
+	position: relative;
+	width: 210px;
+	list-style: none;
+	float: left;
+	line-height: 38px;
+	height: 38px;
+	text-align: center;
+}
+/*------------------首页开始--------------------------*/
+.index_box {
+	position: relative;
+	width: 960px;
+	height: 460px;
+	margin: 0 auto;
+}
+
+.index_pic {
+	position: relative;
+	height: 460px;
+	width: 560px;
+	float: left;
+	background: url('../images/test.png') no-repeat;
+	background-position: -230px 5px;
+}
+
+.login_box {
+	position: relative;
+	height: 460px;
+	width: 380px;
+	float: right;
+}
+
+.login_panel {
+	position: relative;
+	height: 300px;
+	width: 380px;
+	top: 90px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	background: #e4e4e4;
+	box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+.login_form {
+	position: relative;
+	width: 340px;
+	height: 260px;
+	top: 20px;
+	margin: 0 auto;
+}
+
+.login_form_title {
+	font-size: 21px;
+	margin-bottom: 5px;
+	font-weight: normal;
+	text-shadow: 1px 1px 1px #eee;
+	height: 25px;
+	line-height: 25px;
+}
+
+.login_form_title span {
+	float: right;
+	font-size: 12px;
+	color: red;
+}
+
+.login_text_u {
+	position: relative;
+	width: 340px;
+	height: 50px;
+	border-top: 1px solid #aeaeae;
+	border-left: 1px solid #aeaeae;
+	border-right: 1px solid #aeaeae;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	background: #fff;
+}
+
+.login_text_p {
+	position: relative;
+	width: 340px;
+	height: 50px;
+	border: 1px solid #aeaeae;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	background: #fff;
+}
+
+.login_form input {
+	height: 48px;
+	border: 0;
+	font-size: 14px;
+	outline: none;
+	text-indent: 4em;
+}
+
+.login_text_p input[type="password"] {
+	width: 330px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+.login_text_u input[type="text"] {
+	width: 330px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.login_text_u .icon {
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	top: 12px;
+	left: 15px;
+	background: url('../images/icon24_login1ccaec.png') no-repeat left
+		center;
+}
+
+.login_text_p .icon {
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	top: 12px;
+	left: 15px;
+	background: url('../images/icon24_login1ccaec.png') no-repeat;
+	background-position: -48px 0px;
+}
+
+.login_code {
+	position: relative;
+	width: 340px;
+	height: 50px;
+	margin-top: 15px;
+}
+
+.login_code input {
+	width: 100px;
+	box-shadow: inset 0 1px 3px rgba(170, 170, 170, 0.8);
+	-moz-box-shadow: inset 0 1px 3px rgba(170, 170, 170, 0.8);
+	-webkit-box-shadow: inset 0 1px 3px rgba(170, 170, 170, 0.8);
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border: 1px solid #aeaeae;
+	font-size: 16px;
+	text-indent: 1.6em;
+}
+
+.login_code .login_code_btn {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	line-height: 50px;
+}
+
+.login_code .login_code_btn a {
+	color: #2e7dc6;
+	text-decoration: none;
+}
+
+.login_code .login_code_btn a:HOVER {
+	text-decoration: underline;
+}
+
+.login_code .login_code_pic {
+	position: absolute;
+	top: 0px;
+	right: 70px;
+	line-height: 50px;
+}
+
+.login_btn {
+	position: absolute;
+	left: 0px;
+	bottom: 10px;
+}
+
+.login_btn a {
+	display: inline-block;
+	width: 120px;
+	margin-right: 15px;
+	padding: 3px 0;
+	background-color: #209ab4;
+	background: -webkit-gradient(linear, left top, left bottom, from(#209ab4),
+		to(#209ab4));
+	background: -moz-linear-gradient(top, #209ab4 0, #209ab4 100%);
+	color: #fff;
+	border: 1px solid #459394;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	text-align: center;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.login_forgot_pwd {
+	position: absolute;
+	right: 0px;
+	bottom: 10px;
+}
+
+.login_forgot_pwd a {
+	color: #2e7dc6;
+	text-decoration: none;
+}
+
+.login_forgot_pwd a:hover {
+	text-decoration: underline
+}
+
+.index_mes_box {
+	position: relative;
+	margin: 0 auto;
+	height: 100px;
+	border-top: 5px solid #a2a2a2;
+	background: #f3f3f3;
+}
+
+.index_mes_layout {
+	position: relative;
+	width: 960px;
+	margin: 0px auto;
+	margin-top: 20px;
+	padding: 0;
+	border: 1px solid #aeaeae;
+	border-radius: 3px;
+}
+
+.index_mes_layout li {
+	height: 40px;
+	line-height: 40px;
+	list-style: none;
+}
+
+.index_mes_layout div {
+	float: left;
+	width: 200px;
+	text-align: center;
+}
+
+.index_mes {
+	position: relative;
+	height: 40px;
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+
+.index_mes li {
+	margin: 0;
+	padding: 0;
+	line-height: 40px;
+	list-style: disc;
+	color: #bebebe;
+	width: 300px;
+	background: url('../images/icon_new.png') no-repeat right center;
+}
+
+.index_mes li span {
+	color: #373737;
+}
+
+.index_footer {
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	background: #727171;
+	color: #dadada;
+	font-size: 12px;
+}
+/*-----------------------首页结束--------------------------------------*/
+
+/*-----------------------系统模块管理-----------------------------------*/
+.sysmoudel_offset {
+	text-indent: 200px;
+}
+
+.sysmoudel_option_box {
+	width: 400px;
+}
+.sysmoudel_input_width{
+	width: 400px;
+}
+/*-----------------------系统模块管理结束-----------------------------------*/
